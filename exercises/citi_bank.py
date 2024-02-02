@@ -22,7 +22,7 @@ browser.find_element(By.PARTIAL_LINK_TEXT,"select your product type").click()
 browser.find_element(By.PARTIAL_LINK_TEXT,"Credit Card").click()
 time.sleep(10)
 #automate date field using javascript
-browser.execute_script("document.querySelector('#bill-date-long').value='20/4/2024'")
+browser.execute_script("document.querySelector('#bill-date-long').value='24/4/2024'")
 #browser.find_element(By.XPATH,"//input[@value='PROCEED']").click()
 time.sleep(5)
 browser.quit()
