@@ -19,10 +19,10 @@ for y in range(1, 7):
         print(name1)
 # Click on the checkbox when name is matching with "Brenden Wagner"
 
-"""for i in range(1, number_of_rows):
+for i in range(1, number_of_rows):
     name1 = driver.find_element(By.XPATH, f"//table[@id='example']/tbody/tr[{i}]/td[2]").text
     if "Brenden Wagner" == name1:
         driver.find_element(By.XPATH,f"//table[@id='example']/tbody/tr[{i}]/td[1]").click()
-        break"""
+        break
 
 
