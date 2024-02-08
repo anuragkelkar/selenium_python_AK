@@ -1,4 +1,5 @@
 *** Settings ***
+Library    DateTime
 
 *** Variables ***
 ${MY_NAME}      Anurag
@@ -20,3 +21,8 @@ TC3
     ${radius}   Set Variable    10
     ${area}     Evaluate    3.14*${radius}*${radius}
     Log To Console    ${area}
+
+TC4
+    ${date}     Get Current Date
+    Log To Console    ${date}
+
